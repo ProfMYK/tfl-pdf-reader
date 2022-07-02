@@ -8,17 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="top-bar">
-        <button class="btn" id="prev">
-            <i class="fas fa-arrow-circle-left"></i> Prev Page
-        </button>
-        <span class="page-info">
-            Page <span id="page-num"></span> of <span id="page-count"></span>
-        </span>
-        <button class="btn" id="next">
-            Next Page <i class="fas fa-arrow-circle-right"></i> 
-        </button>
-    </div>
+    <ul class="top-bar">
+        <li>
+            <button class="btn" id="prev">
+                <i class="fas fa-arrow-circle-left"></i> Prev Page
+            </button>
+        </li>
+        <li>
+            <div class="page-info">
+                Page <span id="page-num"></span> of <span id="page-count"></span>
+            </div>
+        </li>
+        <li>
+            <button class="btn" id="next">
+                Next Page <i class="fas fa-arrow-circle-right"></i> 
+            </button>
+        </li>
+        <li>
+            <button class="btn"><a href="https://www.youtube.com/channel/UCwFPF3a4f2QwiyKgzcSomcQ/videos">Made By Fortran</a></button>
+        </li>
+    </ul>
 
     <div class="pdf">
         <canvas id="pdf-render1"></canvas>

@@ -5,7 +5,7 @@ let pdfDoc = null,
   pageIsRendering = false
   pageNumIsPending = null
 
-const scale = 1.3,
+const scale = 1.4,
   canvas1 = document.querySelector("#pdf-render1"),
   canvas2 = document.querySelector("#pdf-render2"),
   ctx1 = canvas1.getContext('2d')
