@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <button class="btn" id="prev">
+            <i class="fas fa-arrow-circle-left"></i> Prev Page
+        </button>
+        <span class="page-info">
+            Page <span id="page-num"></span> of <span id="page-count"></span>
+        </span>
+        <button class="btn" id="next">
+            Next Page <i class="fas fa-arrow-circle-right"></i> 
+        </button>
+    </div>
+
+    <div class="pdf">
+        <canvas id="pdf-render1"></canvas>
+        <canvas id="pdf-render2"></canvas>
+    </div>
+
+    <script src="scripts/pdf.js"></script>
+    <script src="scripts/pdf.worker.js"></script>
+    <script src="https://kit.fontawesome.com/3328bdcace.js" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
